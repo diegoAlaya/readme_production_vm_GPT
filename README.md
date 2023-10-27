@@ -28,7 +28,7 @@ nginx -s quit
 2. Tanto el Backend como Frontend se encuentras en carpeta de **Documents/Github**
     -  gpt_alaya_bot
     -  alaya_documentsAI_front
-3. Es recomemdable levantar uno a uno los servicios solamente por temas de orden, en este caso:
+3. Es recomendable levantar uno a uno los servicios solamente por temas de orden, en este caso:
     - gpt_alaya_bot
     - NGINX
     - _alaya_documentsAI_front_ no es necesario iniciar, ya que el build ya se encuentra realizado, y NGINX ya esta configurado.
@@ -52,7 +52,12 @@ start nginx
 ![2023-10-26 19_32_43-Greenshot](https://github.com/diegoAlaya/readme_production_vm_GPT/assets/90165804/bd150323-e086-4baa-b74a-2e00557506bd)
 
 -  Verificar procesos en ejecución
+
+![2023-10-26 19_27_40-Greenshot](https://github.com/diegoAlaya/readme_production_vm_GPT/assets/90165804/353d2bac-ec61-40d4-9763-4c70eb9b1e67)
+
 -  Acceder desde la dirección
+
+
 ```
 http://20.127.237.59:80
 ```
