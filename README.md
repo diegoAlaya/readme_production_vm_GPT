@@ -45,7 +45,7 @@ uvicorn main:app --reload --host 0.0.0.0 --port 81
 4. NGINX:
     - Ir al directorio **Documents/nginx-1.24.0** 
     - Se puede ejecutar NGINX a traves del .exe, recomiendo usar la linea de comando CMD.EXE para verificar los procesos corriendo de NGINX
-    - Ir a la barra de la URL, escribir **CMD**, esto abirar CMD directo en el directorio y ejectar:
+    - Ir a la barra de la URL, escribir **CMD**, esto abrira CMD directo en el directorio y ejecutar:
 ```
 start nginx
 ```
@@ -69,7 +69,7 @@ http://20.127.237.59:80
 ![image](https://github.com/diegoAlaya/readme_production_vm_GPT/assets/90165804/b3d8cff7-5d76-4f25-a2d1-d0cfe5ec4a49)
 
 -  Reinicar el backend de ser necesario con los comando ya descritos
--  Se puede actualizar todos los códigos sin necesidad de bajar el servicio de NGINX, solo basta con recargar los servicios de NGINX con el commando después de haber hecho las correspondientes actualizaciones:
+-  Se debe recargar NGINX sin necesidad de bajar el servicio por completo, para que este tome los últimos cambios después de haber hecho las correspondientes actualizaciones:
 ```
 nginx -s reload
 ```
